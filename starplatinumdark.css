@@ -4,6 +4,7 @@ span.cm-link		{ color: #5eb9ff; }
 span.cm-number		{ color: #5eb9ff; }
 span.cm-string		{ color: #5eb9ff; }
 
+span.cm-builtin     { color: #f6f9fa; }
 span.cm-def			{ color: #f6f9fa; }
 span.cm-keyword		{ color: #f6f9fa; }
 span.cm-operator	{ color: #f6f9fa; }
@@ -18,9 +19,9 @@ span.cm-comment		{ color: #69879a; }
 span.cm-error		{ color: #ff0076; }
 span.cm-property	{ color: #a1cb84; }
 
-span.cm-builtin     { color: #ddc47b; }
 span.cm-string-2    { color: #ddc47b; }
 span.cm-variable-2	{ color: #ddc47b; }
+span.cm-variable-3	{ color: #ddc47b; }
 span.cm-header      { color: #ddc47b; }
 
 span.cm-bracket		{ color: #aac2d0; }
@@ -38,11 +39,11 @@ span.cm-meta		{ color: #aac2d0; }
 }
 
 .CodeMirror-cursor {
-	border-left: 1px solid #00ebff !important;
+	border-left: 2px solid #00ebff !important;
 }
 
 .CodeMirror-overwrite .CodeMirror-cursor {
-    border-bottom: 1px solid #00ebff !important;
+    border-bottom: 2px solid #00ebff !important;
     border-left: none !important;
 }
 
