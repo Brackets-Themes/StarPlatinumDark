@@ -28,8 +28,6 @@ span.cm-bracket		{ color: #aac2d0; }
 span.cm-meta		{ color: #aac2d0; }
 
 
-
-
 /* MISC ---------------------------------------------------------------------- */
 
 .CodeMirror,
@@ -39,11 +37,11 @@ span.cm-meta		{ color: #aac2d0; }
 }
 
 .CodeMirror-cursor {
-	border-left: 2px solid #00ebff !important;
+	border-left: 1px solid #00ebff !important;
 }
 
 .CodeMirror-overwrite .CodeMirror-cursor {
-    border-bottom: 2px solid #00ebff !important;
+    border-bottom: 1px solid #00ebff !important;
     border-left: none !important;
 }
 
@@ -90,4 +88,15 @@ span.cm-meta		{ color: #aac2d0; }
 
 .CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
 	color: #f6f9fa;
+}
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: #181e21;
+}
+
+#image-holder {
+    color: #a1cb84;
 }
