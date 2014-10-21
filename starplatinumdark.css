@@ -30,6 +30,10 @@ span.cm-meta		{ color: #aac2d0; }
 
 /* MISC ---------------------------------------------------------------------- */
 
+.CodeMirror {
+    line-height: 1.5;
+}
+
 .CodeMirror,
 .CodeMirror .CodeMirror-scroll {
 	background: #181e21;
